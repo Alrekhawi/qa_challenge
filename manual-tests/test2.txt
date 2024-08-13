@@ -1,0 +1,46 @@
+Bug Report: Rate Button Not Enabled When Selecting 10 Stars in Top Box Office
+
+Title:
+Rate Button Not Enabled When Selecting 10 Stars in Top Box Office
+
+Environment: PROD
+URL: https://www.imdb.com/
+
+Steps to Reproduce:
+
+1. Navigate to https://www.imdb.com/.
+2. Open the Menu by clicking on the menu icon in the top left corner.
+3. Select "Top Box Office" from the menu.
+4. Click on the second item in the Top Box Office list to go to the movie's detail page.
+5.Click on the IMDb Rating button.
+6. Attempt to rate the movie by selecting 10 stars.
+7. Observe the state of the "Rate" button.
+
+
+Actual Result:
+
+The "Rate" button remains disabled when 10 stars are selected, preventing the user from submitting their rating.
+Screen shot or a video should be attached too for reference. 
+
+
+Expected Result:
+
+The "Rate" button should be enabled after selecting 10 stars, allowing the user to submit their rating.
+
+
+Severity:
+High – Users are unable to rate movies with the maximum rating, which could affect user experience and data accuracy.
+
+Priority:
+P1 – This issue should be addressed in the next release due to its impact on user interaction and functionality.
+
+
+
+Additional Information:
+
+This issue does not occur when selecting any other number of stars (1-9). The "Rate" button is correctly enabled for those selections.
+The issue is reproducible on both Chrome and Firefox browsers across different operating systems.
+Suggested Fix:
+
+Investigate the logic that enables the "Rate" button to ensure it triggers correctly when 10 stars are selected.
+Review any recent changes to the rating system that might have introduced this regression.
