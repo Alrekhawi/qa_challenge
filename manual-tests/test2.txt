@@ -12,7 +12,7 @@ Steps to Reproduce:
 2. Open the Menu by clicking on the menu icon in the top left corner.
 3. Select "Top Box Office" from the menu.
 4. Click on the second item in the Top Box Office list to go to the movie's detail page.
-5.Click on the IMDb Rating button.
+5. Click on the IMDb Rating button.
 6. Attempt to rate the movie by selecting 10 stars.
 7. Observe the state of the "Rate" button.
 
@@ -20,6 +20,7 @@ Steps to Reproduce:
 Actual Result:
 
 The "Rate" button remains disabled when 10 stars are selected, preventing the user from submitting their rating.
+
 Screen shot or a video should be attached too for reference. 
 
 

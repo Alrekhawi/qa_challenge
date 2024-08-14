@@ -11,22 +11,28 @@ Test Case 1.1: Enter minimum valid value (10)
 Steps:
 Enter 10 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 A "Success" message is displayed.
+
 Test Case 1.2: Enter maximum valid value (100)
 
 Steps:
 Enter 100 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 A "Success" message is displayed.
+
 Test Case 1.3: Enter a valid value within the range (ex., 50)
 
 Steps:
 Enter 50 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 A "Success" message is displayed.
+
 2. Invalid Input Values
 
 Test Case 2.1: Enter a value below the minimum (ex., 9)
@@ -34,52 +40,66 @@ Test Case 2.1: Enter a value below the minimum (ex., 9)
 Steps:
 Enter 9 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 An "Error" message is displayed.
+
 Test Case 2.2: Enter a value above the maximum (ex., 101)
 
 Steps:
 Enter 101 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 An "Error" message is displayed.
+
 Test Case 2.3: Enter a non-integer value (ex., 50.5)
 
 Steps:
 Enter 50.5 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 An "Error" message is displayed.
+
 Test Case 2.4: Enter a negative value (ex., -10)
 
 Steps:
 Enter -10 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 An "Error" message is displayed.
+
 Test Case 2.5: Enter a non-numeric value (ex., "abc")
 
 Steps:
 Enter abc in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 An "Error" message is displayed.
-3. Boundary Value Analysis
+
+3. Boundary Value inputs
 
 Test Case 3.1: Enter just above the minimum limit (11)
 
 Steps:
 Enter 11 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 A "Success" message is displayed.
+
 Test Case 3.2: Enter just below the maximum limit (99)
 
 Steps:
 Enter 99 in the "Number of tentacles" input field.
 Click the "Send" button.
+
 Expected Result:
 A "Success" message is displayed.
+
 4. Empty and Default Input Values
 
 Test Case 4.1: Leave the input field empty
@@ -87,15 +107,19 @@ Test Case 4.1: Leave the input field empty
 Steps:
 Leave the "Number of tentacles" input field empty.
 Click the "Send" button.
+
 Expected Result:
 An "Error" message is displayed.
+
 Test Case 4.2: Verify default value behavior (if any default is set)
 
 Steps:
 Observe the default value in the "Number of tentacles" input field.
 Click the "Send" button without changing the default value.
+
 Expected Result:
 The expected message based on the default value (either "Success" or "Error") is displayed.
+
 5. Input Field Behavior
 
 Test Case 5.1: Attempt to submit the form with a value outside the range using the keyboard (e.g., using arrow keys)
@@ -104,11 +128,14 @@ Steps:
 Focus on the "Number of tentacles" input field.
 Use the arrow keys to increment or decrement the value beyond the limits (below 10 or above 100).
 Click the "Send" button.
+
 Expected Result:
 The input field should prevent the value from exceeding the limits. If the value is within limits, a "Success" message is displayed; otherwise, an "Error" message is displayed.
+
 Test Case 6: Verify input field accepts only numeric values
 
 Steps:
 Try to enter alphabetic characters or special symbols in the input field.
+
 Expected Result:
 The input field should not accept non-numeric characters.

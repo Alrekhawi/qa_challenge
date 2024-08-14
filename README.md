@@ -1,1 +1,1 @@
-hello
+Haifa E2E Test challenge 
